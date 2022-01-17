@@ -1,13 +1,10 @@
 *,html{margin:0;}
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-
-
 /*Esconder triângulo do Details*/
 details > summary {list-style: none;}
 details > summary::-webkit-details-marker {display: none;}
 
-body{background-color: rgb(223, 223, 223);}
+body{background-color: rgb(223, 223, 223);font-family:'Quicksand', sans-serif;}
 
 #svg_menu{margin-left:50px;}
 #svg_menu:hover{
