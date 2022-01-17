@@ -50,10 +50,10 @@ body{background-color: rgb(223, 223, 223);font-family:'Quicksand', sans-serif;}
 #juan{
     color:rgb(122, 162, 255);
     margin-top:30vh;
-    font-size:70pt;
+    font-size:55pt;
 }
 #cc{
-    font-size:26pt;
+    font-size:20pt;
 }
 #juan, #cc{
     font-weight:normal;
