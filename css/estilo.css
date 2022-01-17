@@ -1,15 +1,18 @@
 *,html{margin:0;}
 
+html{scroll-behavior: smooth;}
+
 /*Esconder triângulo do Details*/
 details > summary {list-style: none;}
 details > summary::-webkit-details-marker {display: none;}
 
 body{background-color: rgb(223, 223, 223);font-family:'Quicksand', sans-serif;}
 
-#svg_menu{margin-left:50px;}
-#svg_menu:hover{
+#svg_menu{margin-left:50px;margin-top:5px;transition:0.3s;}
+#svg_menu:hover, #svg_baixo:hover{
     cursor:pointer;
-    background-color: white;
+    background-color: rgb(122, 162, 255);
+    border-radius: 10px;
 }
 
 #menu{
@@ -22,28 +25,46 @@ body{background-color: rgb(223, 223, 223);font-family:'Quicksand', sans-serif;}
 
 .linksmenu{
     text-align:center;
-    padding:10px;
+    padding:20px;
     border-radius:10px;
     display:block; /*os tag a são inline, então o espaçamento não funciona sem o display*/
+    background-color: rgb(243, 243, 243);
     text-decoration: none;
     color:black;
     margin-top:13vh;
     font-size:18pt;
-    border:1px solid white;
+    border:2px solid white;
+    font-weight: bolder;
+    transition: 0.3s; /*smooth*/
 }
 .linksmenu:hover{
     background-color: white;
+    border:2px solid black;
 }
 #meunome{
-    height:95vh;
+    height:94vh;
     background-color: rgb(231, 231, 231);
     border-top:1px solid lightgray;
     border-bottom:1px solid lightgray;
 }
 #juan{
-    text-align: center;
+    color:rgb(122, 162, 255);
     margin-top:30vh;
-    font-size:50pt;
+    font-size:70pt;
+}
+#cc{
+    font-size:26pt;
+}
+#juan, #cc{
     font-weight:normal;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;        
+    text-align: center;
+}
+
+#svg_baixo{
+    transition:0.3s;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:40vh;
 }
