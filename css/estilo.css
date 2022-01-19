@@ -86,3 +86,14 @@ details > summary {
     text-align: center;
 }
 /*Fim da tela inicial*/
+
+
+.topics{
+    text-align: center;
+    margin-top:50px;
+}
+
+.div_topico{
+    height:50vh;
+    border-bottom:1px solid lightgray;
+}
